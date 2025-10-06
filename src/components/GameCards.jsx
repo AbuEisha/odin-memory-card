@@ -17,7 +17,7 @@ export default function GameCards({
       setData(result);
     }
     pokemonNames();
-  }, [score, highScore]);
+  }, [score]);
   const handleGame = (e) => {
     let pokemonsClicked = checkedImg;
     let checked = e.currentTarget.querySelector("img").alt;
