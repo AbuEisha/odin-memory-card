@@ -1,0 +1,24 @@
+.game-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  row-gap: 25px;
+}
+.game-cards .card {
+  padding: 10px;
+  width: 290px;
+  height: 323px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 4px 10px rgb(0 0 0 / 27%), -5px -2px 10px rgb(0 0 0 / 27%);
+}
+.game-cards .card img {
+  max-width: 100%;
+}
+.game-cards .card h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #009688;
+}

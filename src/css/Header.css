@@ -1,0 +1,32 @@
+header {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+header p {
+  margin-bottom: 10px;
+}
+
+header .scores {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header .scores div {
+  padding: 0 15px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  font-size: 20px;
+}
+header .scores div span {
+  border-left: 1px solid #bbb;
+  padding: 10px 0 10px 15px;
+  display: inline-block;
+  color: #03a9f4;
+}
